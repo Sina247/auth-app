@@ -1,0 +1,40 @@
+.container {
+	max-width: 600px;
+	margin: 4rem auto;
+	padding: 2rem;
+	text-align: center;
+	background-color: #e0e7ff;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+
+	h1 {
+		color: #4338ca;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+
+	@media (max-width: 768px) {
+		max-width: 90%;
+		padding: 1.5rem;
+
+		p {
+			font-size: 1.1rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		padding: 1rem;
+
+		h1 {
+			font-size: 1.25rem;
+		}
+
+		p {
+			font-size: 1rem;
+		}
+	}
+}
